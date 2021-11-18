@@ -27,10 +27,10 @@ export const Blocklist = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 28px 38px 38px 38px;
+    padding: 8px 38px 18px 28px;
 font-size: 15px;
 border-radius: 10px;
-margin: 0 20px;
+margin: 10 20px;
 background-color: #4374b7;
 
 `;
