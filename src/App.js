@@ -5,6 +5,7 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageCTA from "./pages/PageCTA";
+import Gallery from "./pages/Gallery";
 
 function App() {
     return (
@@ -24,6 +25,9 @@ function App() {
                 </Route>
                 <Route path="/page-cta">
                     <PageCTA />
+                </Route>
+                <Route path="/Gallery">
+                    <Gallery />
                 </Route>
             </Switch>
         </Layout>

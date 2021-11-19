@@ -60,6 +60,11 @@ const Header = () => {
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
+                                PageTwo
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/Gallery" onClick={menuToggleHandler}>
                                 Gallery
                             </Link>
                         </li>
